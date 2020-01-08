@@ -45,6 +45,4 @@ def read_emp_data():
 
 if __name__ == '__main__':
     read_emp_data()
-    print('123')
-    print('456')
-    print('789')
+

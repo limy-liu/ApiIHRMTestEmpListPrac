@@ -13,6 +13,7 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestLogin))
 suite.addTest(unittest.makeSuite(TestEmp))
 
+# report_path = BASE_DIR + '/report/ihrm{}.html'.format(time.strftime('%Y%m%d-%H%M%S'))
 report_path = BASE_DIR + '/report/ihrm.html'
 with open(report_path, 'wb') as f:
     runner = HTMLTestRunner(stream=f,
